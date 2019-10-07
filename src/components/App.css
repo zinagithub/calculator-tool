@@ -1,16 +1,29 @@
-.App {
-  text-align: center;
+.Container {
+  background: DarkBlue;
+  border-radius: 10px;
+  height: 600px;
+  max-width: 600px;
+  margin: 20px auto;
+  
 }
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.display{
+  background: #DDD;
+  border-radius: 10px;
+  height: 50px;
+  position : relative;
+  margin : 10px auto;
+  top : 20px;
+  width : 90%;
 }
 
+.buttonPanel{
+  background: #DDD;
+  border-radius: 10px;
+  height: 90%;
+  position : relative;
+  margin : 10px auto;
+  top : 20px;
+  width : 90%;
+}

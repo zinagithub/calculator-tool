@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className='Container'>
+         
+       <Display />
+       <ButtonPanel />
+      </div>
+    );
+  }
 }
 
 export default App;

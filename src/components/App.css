@@ -5,12 +5,11 @@
   margin: 20px auto;
   max-width: 600px;   
 }
-.buttonPanel, .display 
- {
+.buttonPanel, .display {
     background: #DDD;
     border-radius: 10px;
-    position : relative;
     margin : 10px auto;
+    position : relative;
     top : 20px;
     width : 90%;
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import './App.css';
@@ -10,8 +10,8 @@ class App extends React.Component {
     return (
       <div className='Container'>
          
-       <Display />
-       <ButtonPanel />
+       <Display result  />
+       <ButtonPanel  />
       </div>
     );
   }

@@ -2,28 +2,37 @@
   background: DarkBlue;
   border-radius: 10px;
   height: 600px;
-  max-width: 600px;
   margin: 20px auto;
+  max-width: 600px;   
+}
+.display, 
+.buttonPanel {
+    background: #DDD;
+    border-radius: 10px;
+    position : relative;
+    margin : 10px auto;
+    top : 20px;
+    width : 90%;
+}
+.display{
+  height: 50px;
+  
+  text-align: right;
   
 }
-
-
-.display{
-  background: #DDD;
-  border-radius: 10px;
-  height: 50px;
-  position : relative;
-  margin : 10px auto;
-  top : 20px;
-  width : 90%;
+.display p {
+   padding: 15px;
+   vertical-align: middle;
 }
 
 .buttonPanel{
-  background: #DDD;
-  border-radius: 10px;
-  height: 90%;
-  position : relative;
-  margin : 10px auto;
-  top : 20px;
-  width : 90%;
+  height: 80%;
+}
+.butCal{
+  color : black;
+  float : left;
+  font-size: 20px;
+  height: 96px;
+  width: 135px;
+
 }

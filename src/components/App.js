@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div className='Container'>
          
-       <Display result  />
+       <Display result = '0' />
        <ButtonPanel  />
       </div>
     );

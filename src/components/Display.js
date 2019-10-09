@@ -1,21 +1,21 @@
 import React from 'react';
 
+
 class Display extends React.Component {
-	constructor () {
-    super();
-    this.state = {
-      result : 0,
-    }
-  }
 
   render() {
     return (
       <div className='display'>
-         <p> {this.state.result} </p>
+         <p> {this.props.result} </p>
 
       </div>
     )
+  }
 }
-}
+
+Display.defaultProps = {
+  result: '0',
+};
+
 
 export default Display;

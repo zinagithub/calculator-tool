@@ -29,6 +29,7 @@
 }
 .butCal{
   color : black;
+  cursor : pointer;
   float : left;
   font-size: 20px;
   height: 96px;

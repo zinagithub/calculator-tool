@@ -1,11 +1,11 @@
 .Container {
   background: DarkBlue;
   border-radius: 10px;
+  display : flex; 
+  flex-direction: column;
   height: 600px;
   margin: 20px auto;
-  max-width: 600px; 
-  display : flex; 
-  flex-direction: column; 
+  max-width: 600px;  
 }
 .buttonPanel, .display {
     background: #DDD;

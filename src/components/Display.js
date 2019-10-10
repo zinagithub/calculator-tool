@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
 class Display extends React.Component {
@@ -14,8 +15,11 @@ class Display extends React.Component {
 }
 
 Display.defaultProps = {
-  result: '0',
-};
+  result: '0'
+}
 
+Display.propTypes = {
+  result: PropTypes.string.isRequired
+}
 
 export default Display;

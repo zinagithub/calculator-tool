@@ -3,12 +3,6 @@ import Button from './Button';
 
 
 class ButtonPanel extends React.Component {
-constructor () {
-    super();
-    this.state = {
-      
-    }
-  }	
 
   render() {
     return (
@@ -18,10 +12,10 @@ constructor () {
          	['AC', '+/-', '%', '+',
              '7', '8', '9', 'X',
              '4', '5', '6', '-',
-             '1', '2', '3', '+',
-             '0', '.', '','='].map((elm) => {
+             '1', '2', '3', '/',
+             '0', '.', '','='].map((elm, index) => {
          
-             return (<Button value = {elm}  />)
+             return (<Button key = {index} value = {elm}  />)
          })}
 
       </div>

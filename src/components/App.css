@@ -1,0 +1,40 @@
+.Container {
+  background: DarkBlue;
+  border-radius: 10px;
+  display : flex; 
+  flex-direction: column;
+  height: 600px;
+  margin: 20px auto;
+  max-width: 600px;  
+}
+.buttonPanel, .display {
+    background: #DDD;
+    border-radius: 10px;
+    margin : 10px auto;
+    position : relative;
+    top : 20px;
+    width : 90%;
+}
+.display{
+  height: 50px;
+  
+  text-align: right;
+  
+}
+.display p {
+   padding: 15px;
+   vertical-align: middle;
+}
+
+.buttonPanel{
+  height: 80%;
+}
+.butCal{
+  color : black;
+  cursor : pointer;
+  float : left;
+  font-size: 20px;
+  height: 96px;
+  width: 135px;
+
+}

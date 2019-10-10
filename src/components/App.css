@@ -3,7 +3,9 @@
   border-radius: 10px;
   height: 600px;
   margin: 20px auto;
-  max-width: 600px;   
+  max-width: 600px; 
+  display : flex; 
+  flex-direction: column; 
 }
 .buttonPanel, .display {
     background: #DDD;

@@ -3,22 +3,23 @@
   border-radius: 10px;
   display : flex; 
   flex-direction: column;
-  height: 600px;
+  height: 585px;
   margin: 20px auto;
-  max-width: 600px;  
+  max-width: 700px;  
 }
 .buttonPanel, .display {
-    background: #DDD;
-    border-radius: 10px;
-    margin : 10px auto;
+    background: DarkBlue;
+    margin : 0 auto;
     position : relative;
-    top : 20px;
-    width : 90%;
+    width : 100%;
 }
 .display{
-  height: 50px;
-  
+  background: gray;
+  color : white;
+  font-weight: bold;
+  height: 100px;
   text-align: right;
+
   
 }
 .display p {
@@ -27,14 +28,31 @@
 }
 
 .buttonPanel{
-  height: 80%;
+  display : flex;
+  flex-wrap: wrap;
+  height: 100%;
 }
-.butCal{
+.butCal1{
+  border :1px solid #DDD;
   color : black;
   cursor : pointer;
-  float : left;
   font-size: 20px;
-  height: 96px;
-  width: 135px;
+  height: 100px;
+  width: 25%;
 
+}
+.butCal2{
+  border :1px solid #DDD;
+  color : black;
+  cursor : pointer;
+  font-size: 20px;
+  height: 100px;
+  width: 50%;
+
+}
+.butBackground1{
+  background:gray;
+}
+.butBackground2{
+  background:orange;
 }

@@ -1,0 +1,59 @@
+.Container {
+  background: DarkBlue;
+  border-radius: 10px;
+  display : flex; 
+  flex-direction: column;
+  height: 585px;
+  margin: 20px auto;
+  max-width: 700px;  
+}
+.buttonPanel, .display {
+    background: DarkBlue;
+    margin : 0 auto;
+    position : relative;
+    width : 100%;
+}
+.display{
+  background: gray;
+  color : white;
+  font-weight: bold;
+  height: 100px;
+  text-align: right;
+
+  
+}
+.display p {
+   padding: 15px;
+   vertical-align: middle;
+}
+
+.buttonPanel{
+  display : flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.butCal1{
+  color : black;
+  cursor : pointer;
+  font-size: 20px;
+  height: 100px;
+  width: 25%;
+
+}
+.butCal2{
+  color : black;
+  cursor : pointer;
+  font-size: 20px;
+  height: 100px;
+  width: 50%;
+
+}
+.butCal1, butCal2 {
+  border :1px solid #DDD;
+}
+.butBackground1{
+  background:gray;
+}
+.butBackground2{
+  background:orange;
+}

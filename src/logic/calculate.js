@@ -13,7 +13,7 @@ function concatElm(nbr1, nbr2){
     return nbr1.concat(nbr2)
 }
 
-function calculate ({ total, next, operation, displayResult }, buttonName) {
+function Calculate ({ total, next, operation, displayResult }, buttonName) {
 	switch (buttonName){
 		case 'AC':
 		           total = '0'
@@ -54,4 +54,4 @@ function calculate ({ total, next, operation, displayResult }, buttonName) {
 	}
       return { total, next, operation, displayResult}
 }
-export default calculate;
+export default Calculate;

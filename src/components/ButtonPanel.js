@@ -5,13 +5,13 @@ import Button from './Button';
 class ButtonPanel extends React.Component {
 
   render() {
-  	
+  	let clickHandler = this.props.clickHandler;
     return (
       <div className='buttonPanel'>
          {
             
          	['AC', '+/-', '%', '+',
-             '7', '8', '9', 'X',
+             '7', '8', '9', 'x',
              '4', '5', '6', '-',
              '1', '2', '3', '/',
              '0', '.','='].map((elm, index) => {
@@ -24,7 +24,8 @@ class ButtonPanel extends React.Component {
                        	 color = '2'
                        }
 
-             return (<Button key = {index} value = {elm}  Wide = {wide} Color = {color} />)
+             return (<Button key = {index} value = {elm}  Wide = {wide} 
+                             Color = {color} clickHandler={ clickHandler }/>)
            })
          }
 

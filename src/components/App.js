@@ -6,13 +6,21 @@ import './App.css';
 
 
 class App extends React.Component {
-
+	state = {
+		total: '0',
+        next: '0',
+        operation: '',
+        displayResult : false,
+	}
+    handleClick = (buttonName) => {
+        this.setState(changeState => Calculate(changeState, buttonName))
+    }
   render() {
     return (
       <div className='Container'>
          
-       <Display result = '0' />
-       <ButtonPanel  />
+       <Display result={this.state.next} />
+       <ButtonPanel  clickHandler = {this.handleClick} />
       </div>
     );
   }

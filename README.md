@@ -13,3 +13,4 @@ $ npm install
 $ npm run build
 $ npm start
 
+Live version : https://calculator-tool.herokuapp.com/

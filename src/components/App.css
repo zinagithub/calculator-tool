@@ -1,21 +1,32 @@
 .Container {
-  background: DarkBlue;
+  background: /*DarkBlue*/#4a69bd;
   border-radius: 10px;
   display : flex; 
   flex-direction: column;
-  height: 585px;
+  height: 600px;
   margin: 20px auto;
-  max-width: 700px;  
+  max-width: 450px;  
+}
+.headerCalc {
+
+  display : flex;
+  /*padding: 15px;*/
+  margin: 0 auto;
+}
+.headerCalc p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: blanchedalmond;
 }
 .buttonPanel, .display {
-    background: DarkBlue;
+    /*background: DarkBlue;*/
     margin : 0 auto;
     position : relative;
     width : 100%;
 }
 .display{
-  background: gray;
-  color : white;
+  background: #dfe6e9;
+  color : black;
   font-weight: bold;
   height: 100px;
   text-align: right;
@@ -31,29 +42,34 @@
   display : flex;
   flex-wrap: wrap;
   height: 100%;
+  margin-top: 10px;
 }
 .butCal1{
+  border-radius: 15px;
   color : black;
   cursor : pointer;
   font-size: 20px;
-  height: 100px;
-  width: 25%;
-
+  height: 80px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 23%;
 }
 .butCal2{
+  border-radius: 15px;
   color : black;
   cursor : pointer;
   font-size: 20px;
-  height: 100px;
-  width: 50%;
+  height: 80px;
+  margin-left:1%;
+  width: 49%;
 
 }
 .butCal1, butCal2 {
   border :1px solid #DDD;
 }
 .butBackground1{
-  background:gray;
+  background:/*gray*/ transparent;
 }
 .butBackground2{
-  background:orange;
+  background:/*orange*/ #1e3799;
 }
